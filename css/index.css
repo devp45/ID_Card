@@ -1,6 +1,8 @@
-.container {
-  display: flex;
-  flex-direction: column;
+/* Header css */
+.bd-navbar {
+  min-height: 4rem;
+  background-color: #7952b3;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
 }
 
 .text-center {
@@ -16,17 +18,17 @@
 }
 
 .form-element {
-  margin: 5px;
-  min-width: 200px;
-  display: flex;
+margin: 5px;
+min-width: 200px;
+display: flex;
 }
 
 .form-label {
-  min-width: 150px;
+min-width: 150px;
 }
 
 .id-card-container {
-  display: block;
+display: none;
 }
 
 .card-container {
@@ -39,6 +41,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 500px;
 }
 
 .card-wrapper {
@@ -73,18 +76,27 @@
 }
 
 .user-photo {
-  font-size: 7em;
+font-size: 7em;
 }
 
 .card-element {
-  margin-left: 10px;
-  margin-bottom: 15px;
+margin-left: 10px;
+margin-bottom: 15px;
 }
 
 .card-name {
-  font-size: 1.5rem;
+font-size: 1.5rem;
 }
 
 .college-name {
-  font-size: 1.2rem;
+font-size: 1.2rem;
 }
+.cardLocation{
+  font-size : 1.2rem;
+}
+
+.generateButton {
+  background-color: #7952b3;
+  color:white;
+  border: black;
+  }
